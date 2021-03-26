@@ -16,6 +16,7 @@ const landingPageController = require('./controllers/landingPage')
 const loginPageController = require('./controllers/loginPage')
 const registerPageController = require('./controllers/registerPage')
 const dashPageController = require('./controllers/dashboardPage')
+const userProfController = require('./controllers/userProfile')
 
 const storeUserController = require('./controllers/storeUser')
 app.post('/users/register', storeUserController)
@@ -28,6 +29,7 @@ app.get('/', landingPageController)
 app.get('/login', loginPageController)
 app.get('/register', registerPageController)
 app.get('/dashboard', dashPageController)
+app.get('/userProfile', userProfController)
 
 
 
