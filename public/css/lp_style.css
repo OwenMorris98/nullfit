@@ -1,0 +1,14 @@
+body {
+ background-image: url("/images/lp_background.jpg");
+ background-repeat: no-repeat;
+background-size: cover;
+ background-color: white;
+}
+
+.jumbotron {
+    background: none
+}
+
+h1, p {
+  text-shadow: 2px 2px #000;
+}
